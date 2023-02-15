@@ -6,8 +6,8 @@ const News = () => {
             <div className="card dark-bg">
                 <h3 className="">news</h3>
                 <ul className="news">
-                    {news.map((newsItem) => (
-                        <li>{newsItem}</li>
+                    {news.map((newsItem, i) => (
+                        <li key={`newsItem-${i}`}>{newsItem}</li>
                     ))}
                 </ul>
             </div>

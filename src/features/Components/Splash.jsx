@@ -11,9 +11,9 @@ const Splash = () => {
             <button className="lg grid-item grid-header">download</button>
             <div className="grid-middle">
                 <div className="autogrid">
-                    {icons.map((icon) => (
+                    {icons.map((icon, i) => (
                         <OverlayTrigger
-                        key={icon}
+                        key={icon?.name+i}
                         placement="bottom"
                         overlay={
                             <Tooltip id={`tooltip-${icon.name}`}>
