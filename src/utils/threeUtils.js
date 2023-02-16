@@ -5,7 +5,7 @@ import { TextGeometry } from 'three/examples/jsm/geometries/TextGeometry';
 
 export const createSceneObjects = (scene) => {
     const textureLoader = new THREE.TextureLoader();
-    const textureMap = textureLoader.load('public/images/shiny.png');
+    const textureMap = textureLoader.load('dist/images/shiny.png');
 
     const boxGeometry = new THREE.BoxGeometry(20, 20, 20);
     const boxMaterial = new THREE.MeshPhysicalMaterial({
@@ -57,7 +57,7 @@ export const createSceneObjects = (scene) => {
 
     const fontLoader = new FontLoader();
     fontLoader.load(
-      'public/fonts/BigPixel_Regular.json',
+      'dist/fonts/BigPixel_Regular.json',
       (bigPixel) => {
         const homeTextGeometry = new TextGeometry('home', {
           size: 4,

@@ -1,6 +1,6 @@
 @font-face {
   font-family: "ominoFont";
-  src: url("public/fonts/BigPixel.otf");
+  src: url("dist/fonts/BigPixel.otf");
 }
 
 :root {

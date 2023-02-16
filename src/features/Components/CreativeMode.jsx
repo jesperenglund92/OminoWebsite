@@ -9,7 +9,7 @@ const CreativeMode = () => {
             <div className="my-container">
                 <div className="new-grid">
                     <div className="new-grid-item long-pic">
-                        <img src="public/images/levelEditor.png" alt="Omino" />
+                        <img src="dist/images/levelEditor.png" alt="Omino" />
                     </div>
                     <div className="multi-paragraph-item">
                         <p>One of the many things that makes Omino special is the player's ability to create custom worlds and levels in an easy-to-use level editor. 
@@ -25,7 +25,7 @@ const CreativeMode = () => {
                         </p>
                     </div>
                     <div className="new-grid-item long-pic">
-                        <Image src="public/images/skyboxesSideBySide.png" alt="Omino" />
+                        <Image src="dist/images/skyboxesSideBySide.png" alt="Omino" />
                     </div>
                 </div>
             </div>
