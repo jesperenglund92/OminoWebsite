@@ -1,13 +1,14 @@
-##To install
-run npm install
+## To install
+run `npm install`
 
-##To run
+## To run
 
-npm run dev
+run `npm run dev`
 or
-npm run build
-npm run preview
+`npm run build`and then `npm run preview`
 
-##To deploy
+## To deploy
 
-sh deploy.sh
+run `sh deploy.sh`
+
+pushing main branch needs to be done separately for now
