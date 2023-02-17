@@ -11,7 +11,7 @@ const Us = () => {
                         <p>Everything else that you see and hear in the game was designed and developed by Jesper Englund, including game logic, level editor, data architecture, UI, movement mechanics and environment interactions, level design, music, sound effects, skyboxes and this website. Jesper is the only one still working on the project.</p>
                     </div>
                     <div className="us-img-container">
-                        <img src="dist/images/jesperTransparent.png" className="grid-img us-img" alt="Jesper" />
+                        <img src="images/jesperTransparent.png" className="grid-img us-img" alt="Jesper" />
                         <div className="img-caption">
                             <p>Jesper Englund - Developer, designer, project manager etc.</p>
                         </div>

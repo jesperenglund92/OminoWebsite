@@ -26,7 +26,7 @@ const GameEconomy = () => {
                         </p>
                     </div>
                     <div className="new-grid-item long-pic">
-                        <Image src="dist/images/gameEconomy.png" alt="Game Economy" />
+                        <Image src="images/gameEconomy.png" alt="Game Economy" />
                     </div>
                 </div>
             </div>

@@ -15,7 +15,7 @@ const Gameplay = () => {
                         </p>
                     </div>
                     <div className="new-grid-item">
-                        <Image src="dist/images/firstCropped.png" alt="Omino" />
+                        <Image src="images/firstCropped.png" alt="Omino" />
                     </div>
                     <div className="new-grid-item">
                     <p>
@@ -25,7 +25,7 @@ const Gameplay = () => {
                     </p>
                     </div>
                     <div className="new-grid-item">
-                        <Image src="dist/images/crazyShape.png" alt="Omino" />
+                        <Image src="images/crazyShape.png" alt="Omino" />
                     </div>
                     <div className="new-grid-item">
                         <p>
@@ -38,7 +38,7 @@ const Gameplay = () => {
                         </p>
                     </div>
                     <div className="new-grid-item">
-                        <Image src="dist/images/onIce.png" alt="Omino" />
+                        <Image src="images/onIce.png" alt="Omino" />
                     </div>
                 </div>
             </div>
