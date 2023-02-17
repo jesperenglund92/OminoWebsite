@@ -1266,10 +1266,6 @@ input:checked + .toggle-bg {
   src: url("/fonts/BigPixel.otf");
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   background-color: #06071A;
 }
