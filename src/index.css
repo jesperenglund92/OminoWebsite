@@ -114,7 +114,7 @@ section h2 {
 }
 
 .carousel-item img {
-  min-height: 16vh;
+  min-height: 20vh;
 }
 
 .carousel .carousel-light,.dark{
@@ -379,11 +379,6 @@ section h2 {
 .fa-discord {
   background: #5865F2;
   color: white;
-}
-
-.disabled {
-  opacity: 60%;
-  pointer-events: none !important;
 }
 
 ul.news {

@@ -3,11 +3,15 @@ import Gameplay from "./Components/Gameplay";
 import Progression from "./Components/Progression";
 import CreativeMode from "./Components/CreativeMode";
 import GameEconomy from "./Components/GameEconomy";
-import DemoVideo from "./Components/DemoVideo";
+
 
 const Game = () => {
     const carouselItems = [
-        { name: 'trailer', caption: <DemoVideo /> },
+        { name: 'trailer', caption: 
+        <>
+            <div className="my-grid-header"><h3>demo video</h3></div>
+        </> 
+        },
         { name: 'gameplay', caption: <Gameplay /> },
         { name: 'progression', caption: <Progression /> },
         { name: 'creativeMode', caption: <CreativeMode />},

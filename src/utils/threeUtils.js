@@ -80,13 +80,13 @@ export const createSceneObjects = (scene) => {
         gameTextMesh.rotation.set(-Math.PI/2,0,0);
         gameTextMesh.name = 'gameText';
         scene.scene.add(gameTextMesh);
-        const usTextGeometry = new TextGeometry('about', {
-          size: 3.6,
+        const usTextGeometry = new TextGeometry('us', {
+          size: 4,
           height: 0.1,
           font: bigPixel,
         });
         const usTextMesh = new THREE.Mesh(usTextGeometry, textMaterial);
-        usTextMesh.position.set(11.9, -9.85, 1.5);
+        usTextMesh.position.set(15.5, -9.85, 1.5);
         usTextMesh.rotation.set(-Math.PI/2,0,0);
         usTextMesh.name = 'usText';
         scene.scene.add(usTextMesh);

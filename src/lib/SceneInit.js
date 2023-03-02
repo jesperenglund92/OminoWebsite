@@ -37,8 +37,8 @@ export default class SceneInit {
       1,
       1000
     );
-    this.camera.position.y = 34;
-    this.camera.position.z = 32;
+    this.camera.position.y = 26;
+    this.camera.position.z = 24;
     this.camera.lookAt( 0, 0, 0 );
 
     // this.canvasContainer = document.getElementById('canvasContainer');
