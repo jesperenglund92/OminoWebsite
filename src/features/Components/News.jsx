@@ -5,7 +5,7 @@ const News = () => {
         <div className="center">
             <div className="card dark-bg">
                 <h3 className="">news</h3>
-                <div className="center">
+                <div className="news-container">
                     <ul className="news">
                         {news.map((newsItem, i) => (
                             <li key={`newsItem-${i}`}>{newsItem}</li>

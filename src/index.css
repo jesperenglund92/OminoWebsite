@@ -203,6 +203,12 @@ section h2 {
   height: 100%;
 }
 
+.news-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .grid {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
