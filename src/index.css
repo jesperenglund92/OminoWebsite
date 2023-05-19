@@ -19,7 +19,7 @@ body {
 
 .pageContent {
   position: absolute;
-  top: 23vh;
+  top: 23dvh;
   width: 100%;
   background-color: #06071A;
 }
@@ -46,7 +46,7 @@ body {
   display: flex;
   place-items: center;
   min-width: 320px;
-  min-height: 100vh;
+  min-height: 100dvh;
 }
 
 h1 {
@@ -90,14 +90,14 @@ button:hover {
 }
 
 section {
-  padding: 2vh 2vh;
+  padding: 2dvh 2dvh;
   height:fit-content;
 }
 
 section h2 {
   width: 100%;
   text-align: center;
-  margin-bottom: 4vh;
+  margin-bottom: 4dvh;
 }
 
 .sectionText {
@@ -114,7 +114,7 @@ section h2 {
 }
 
 .carousel-item img {
-  min-height: 16vh;
+  min-height: 16dvh;
 }
 
 .carousel .carousel-light,.dark{
@@ -212,7 +212,7 @@ section h2 {
 .grid {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 22vh 22vh 22vh;
+  grid-template-rows: 22dvh 22dvh 22dvh;
   grid-template-areas: 
     "header header header header"
     "leftside main main rightside"

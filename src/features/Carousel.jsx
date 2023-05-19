@@ -9,7 +9,7 @@ function CarouselComponent({carouselItems, variant, fade}) {
         <Carousel.Item key={item.name + i}>
         {item?.img ?
           <div
-            style={{height: '74vh', display:'flex', flexDirection: 'column', justifyContent:'center'}}
+            style={{height: '74dvh', display:'flex', flexDirection: 'column', justifyContent:'center'}}
           >
             <Image src={item.img} alt={item?.imgAlt} className={item?.imgStyle && item.imgStyle}>
             </Image>
@@ -17,14 +17,14 @@ function CarouselComponent({carouselItems, variant, fade}) {
         :
           <div
             className="w-100"
-            style={{height: '73vh'}}
+            style={{height: '73dvh'}}
           />
         }
         {item?.caption &&
           <Carousel.Caption>
             <div
               className="w-100"
-              style={{height: '74vh', display:'flex', flexDirection: 'column', justifyContent:'center'}}
+              style={{height: '74dvh', display:'flex', flexDirection: 'column', justifyContent:'center'}}
             >
               {item.caption}
             </div>
