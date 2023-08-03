@@ -1,7 +1,8 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as THREE from 'three';
 import * as TWEEN from '@tweenjs/tween.js';
+import { Snackbar, Alert } from '@mui/material';
 
 import SceneInit from './lib/SceneInit';
 import Home from './features/Home';
@@ -9,15 +10,31 @@ import Game from './features/Game';
 import Us from './features/Us';
 
 import { createSceneObjects } from './utils/threeUtils';
+import getBrowsername from './utils/getBrowsername';
+import getIsUsingMobile from './utils/getIsUsingMobile';
 
 function App() {
   const homeRef = useRef(null);
   const gameRef = useRef(null);
   const aboutUsRef = useRef(null);
+  const [snackbarOpen, setSnackbarOpen] = useState(false);
 
   const goToAnchor = (id, canvasHeight) => {
     var element = document.querySelector(`#${id}`);
     element.scrollIntoView({behavior: "smooth", block: "start", inline: "start"})
+  };
+
+  useEffect(() => {
+    if (getBrowsername() === 'Safari' && getIsUsingMobile()) {
+      setSnackbarOpen(true);
+    }
+  }, []);
+
+  const handleCloseSnackbar = (event, reason) => {
+    if (reason === 'clickaway') {
+      return;
+    }
+    setSnackbarOpen(false);
   };
 
   useEffect(() => {
@@ -309,6 +326,16 @@ function App() {
         <Home />
         <Game />
         <Us />
+        <Snackbar
+          open={snackbarOpen}
+          autoHideDuration={12000}
+          anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}
+          onClose={handleCloseSnackbar}
+        >
+          <Alert onClose={handleCloseSnackbar} severity="info" sx={{ width: '100%' }}>
+            You seem to be using Safari on a mobile device which isn't the best combo for a smooth experience on this site. Try another browser or device why don't you!
+          </Alert>
+        </Snackbar>
       </div>
     </>
   );

@@ -12,6 +12,9 @@
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.3",
     "@tweenjs/tween.js": "^18.6.4",
     "bootstrap": "^5.2.3",
     "gh-pages": "^5.0.0",
