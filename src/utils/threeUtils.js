@@ -70,13 +70,13 @@ export const createSceneObjects = (scene) => {
         homeTextMesh.rotation.set(-Math.PI/2,0,0);
         homeTextMesh.name = 'homeText';
         scene.scene.add(homeTextMesh);
-        const gameTextGeometry = new TextGeometry('game', {
-          size: 4,
+        const gameTextGeometry = new TextGeometry('polipod', {
+          size: 2.8,
           height: 0.1,
           font: bigPixel,
         });
         const gameTextMesh = new THREE.Mesh(gameTextGeometry, textMaterial);
-        gameTextMesh.position.set(-7.5, -9.85, 1.5);
+        gameTextMesh.position.set(-9.2, -9.85, 1.5);
         gameTextMesh.rotation.set(-Math.PI/2,0,0);
         gameTextMesh.name = 'gameText';
         scene.scene.add(gameTextMesh);

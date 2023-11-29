@@ -15,7 +15,7 @@ const Progression = () => {
                         </p>
                     </div>
                     <div className="new-grid-item long-pic">
-                        <Image src="images/worldBrowser.png" alt="Omino" />
+                        <Image src="images/worldBrowser.png" alt="Polipod" />
                     </div>
                 </div>
             </div>

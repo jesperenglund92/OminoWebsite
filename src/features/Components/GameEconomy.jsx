@@ -18,7 +18,7 @@ const GameEconomy = () => {
                             If it's a player created world, the amount of currency earned depends on the rating of the world. The same currency is also used to unlock new worlds.
                         </p>
                         <p>
-                            There is also a hard currency, coins, which can be used to buy skins, for the Omino or for certain building blocks in the level editor, special environments in the level editor, and possibly special music for the worlds created. 
+                            There is also a hard currency, coins, which can be used to buy skins, for the Polipod or for certain building blocks in the level editor, special environments in the level editor, and possibly special music for the worlds created. 
                             This currency is also used to publish more than 1 world. This will cost real world money because of the cost of storing world data as well as a way to encourage quality in player created worlds.
                         </p>
                         <p>

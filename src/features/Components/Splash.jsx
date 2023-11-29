@@ -9,7 +9,7 @@ const Splash = () => {
     return (
         <div className="splash">
             <div className='download-btn-container'>
-                <button className="lg">download</button>
+                <button className="lg">download polipod</button>
             </div>
             <div className="icons-container">
                 <div className="autogrid">

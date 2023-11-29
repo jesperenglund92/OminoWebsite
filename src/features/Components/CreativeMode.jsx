@@ -12,12 +12,12 @@ const CreativeMode = () => {
                         <img src="images/levelEditor.png" alt="Omino" />
                     </div>
                     <div className="multi-paragraph-item">
-                        <p>One of the many things that makes Omino special is the player's ability to create custom worlds and levels in an easy-to-use level editor. 
+                        <p>One of the many things that makes Polipod special is the player's ability to create custom worlds and levels in an easy-to-use level editor. 
                             This unlocks the potential of having a sea of great and unique player created content to dive into. 
                         </p>
                         <p>
                             This feature also entails a form of asynchronous multiplayer.
-                            One player might create a world and set its highscore on it, a highscore that can be set as a minimum requirement for clearing the world, 
+                            One player might create a world and set its highscore on it, a highscore that can be set as a minimum requirement for completing the world, 
                             effectively challenging any other player to beat them at their own world.
                         </p>
                         <p>

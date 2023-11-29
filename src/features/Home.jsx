@@ -4,7 +4,7 @@ import News from "./Components/News";
 
 const Home = () => {
     const carouselItems = [
-        { name: 'splash', img: 'images/OminoFullLogoOneColor.png', imgAlt: 'First image', imgStyle: 'opacity-25', caption: <Splash /> },
+        { name: 'splash', img: 'images/OminoGamesLogo.png', imgAlt: 'First image', imgStyle: 'opacity-25', caption: <Splash /> },
         { name: 'news', img: 'images/4fly.png', imgAlt: 'second image', caption: <News /> },
       ];
       
