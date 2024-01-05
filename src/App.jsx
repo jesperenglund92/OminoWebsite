@@ -333,7 +333,7 @@ function App() {
           onClose={handleCloseSnackbar}
         >
           <Alert onClose={handleCloseSnackbar} severity="info" sx={{ width: '100%' }}>
-            You seem to be using Safari on a mobile device which isn't the best combo for a smooth experience on this site. Try another browser or device why don't you!
+            Using Safari on a mobile device is a combo that has been known to be a recipe for a lesser experience on this site. Tread lightly or try another browser/device why don't you!
           </Alert>
         </Snackbar>
       </div>

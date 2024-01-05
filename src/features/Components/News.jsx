@@ -1,7 +1,7 @@
 
 const News = () => {
-    const demoLink = <a href="https://youtu.be/lzzkix9G_TU">here</a>
-    const news = [<span>2023-03-05 - A demo video for the game is releasing today, watch it <a href="https://youtu.be/lzzkix9G_TU" target="_blank">here</a>!</span>];
+    const news = [<span>2024-01-05 - The <a href="https://www.kickstarter.com/projects/bockpe/polipod-a-fun-mobile-puzzle-game" target="_blank">Kickstarter Campaign</a> launches!</span>,
+    <span>2024-01-01 - A demo video for the game is releasing today, watch it <a href="https://youtu.be/Vvb8goNZk3E" target="_blank">here</a>!</span>];
     return (
         <div className="center">
             <div className="card dark-bg">

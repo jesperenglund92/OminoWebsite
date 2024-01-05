@@ -11,4 +11,4 @@ or
 
 run `sh deploy.sh`
 
-pushing main branch needs to be done separately for now
+pushing main branch needs to be done separately (before?) for now
