@@ -9,7 +9,7 @@ const Splash = () => {
     { name: 'fa-tiktok', link: 'https://www.tiktok.com/@ominogames' },
     { name: 'fa-youtube', link: 'https://www.youtube.com/@OminoGames' },
     { name: 'fa-kickstarter-k', link: 'https://www.kickstarter.com/projects/bockpe/polipod-a-fun-mobile-puzzle-game' },
-    { name: 'fa-discord', link: 'https://discord.com/channels/1074707561833562145/1074707563301572619' }];
+    { name: 'fa-discord', link: 'https://discord.gg/saqjU9PWMt' }];
 
     return (
         <div className="splash">
