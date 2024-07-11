@@ -8,7 +8,7 @@ const Splash = () => {
     { name: 'fa-instagram', link: 'https://www.instagram.com/ominogames/' },
     { name: 'fa-tiktok', link: 'https://www.tiktok.com/@ominogames' },
     { name: 'fa-youtube', link: 'https://www.youtube.com/@OminoGames' },
-    { name: 'fa-kickstarter-k', link: 'https://www.kickstarter.com/projects/bockpe/polipod-a-fun-mobile-puzzle-game' },
+    { name: 'fa-twitter', link: 'https://x.com/OminoGames' },
     { name: 'fa-discord', link: 'https://discord.gg/saqjU9PWMt' }];
 
     return (
@@ -34,4 +34,4 @@ const Splash = () => {
     );
 }
 
-export default Splash;  
+export default Splash;

@@ -168,7 +168,7 @@ section h2 {
 .carousel-light,.light .carousel-control-prev-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23A3DFEF' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
  }
- 
+
  .carousel-light,.dark .carousel-control-prev-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2306071A' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
  }
@@ -213,7 +213,7 @@ section h2 {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 22dvh 22dvh 22dvh;
-  grid-template-areas: 
+  grid-template-areas:
     "header header header header"
     "leftside main main rightside"
     "footer footer footer footer";
@@ -226,7 +226,7 @@ section h2 {
   grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
   grid-auto-rows: 4rem;
   grid-gap: 0.8rem;
-  width: 50%; 
+  width: 50%;
   justify-self: center;
   align-self: center;
   align-items: center;
@@ -427,7 +427,7 @@ li:not(:last-child) {
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 80% 20%;
-  grid-template-areas: 
+  grid-template-areas:
     "grid-img"
     "img-caption";
   justify-items: center;
@@ -471,13 +471,14 @@ li:not(:last-child) {
 
 .icons-container {
   width: 100%;
-  position:absolute;
+  height: 80%;
   display: flex;
-  bottom: 3rem;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: end;
 }
 
 .splash {
   height: 100%;
+  width: 100%;
   justify-content: center;
 }
