@@ -1,6 +1,5 @@
 import { Box } from '@mui/material';
 import Splash from "./features/Components/Splash";
-import ContactForm from "./features/Components/ContactForm";
 
 const Support = () => {
   return (
