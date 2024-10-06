@@ -389,6 +389,11 @@ video {
   height: auto;
 }
 
+.fit-height {
+  max-width: 100%;
+  height: 100%;
+}
+
 /* Make elements with the HTML hidden attribute stay hidden by default */
 
 [hidden] {
