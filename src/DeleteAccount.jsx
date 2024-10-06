@@ -23,7 +23,7 @@ const DeleteAccount = () => {
         Please note that design and/or copy might change slightly and it might take a while before this page is updated but the process should stay basically the same.
       </Box>
       <Box sx={{ textAlign: "center" }}>
-        Alternatively, you can send me an email via support@ominogames.com or contact me through any of the socials below, and we'll do it the old fashioned way, manually. But I'd appreciate if you try do take care of it yourself first!
+        Alternatively, you can send me an email via support@ominogames.com or contact me through any of the socials below, and we'll do it the old fashioned way, manually. But I'd appreciate if you try to take care of it yourself first!
       </Box>
       <Box sx={{ width: "100%", display: "flex" }}>
         <Splash />
