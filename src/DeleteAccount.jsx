@@ -1,5 +1,6 @@
 import { Box, Grid } from '@mui/material';
 import Splash from "./features/Components/Splash";
+import React from 'react';
 
 const DeleteAccount = () => {
   const stepImages = ['images/DeleteStep1.png', 'images/DeleteStep2.png', 'images/DeleteStep3.png', 'images/DeleteStep4.png', 'images/DeleteStep5.png']
@@ -12,8 +13,8 @@ const DeleteAccount = () => {
         <Grid container columnSpacing={2} rowSpacing={2} sx={{ justifyContent: 'center'}}>
           {
             stepImages.map((image) => (
-              <Grid sx={{ height: '300px', padding: 1 }}>
-                <img src={image} alt="some step" key={image} style={{ height: "100%" }} />
+              <Grid sx={{ height: '300px', padding: 1 }} key={image}>
+                <img src={image} alt="some step" style={{ height: "100%" }} />
               </Grid>
             ))
           }

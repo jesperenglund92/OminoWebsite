@@ -1,5 +1,5 @@
 
-const Us = () => {
+const Us = () => { 
     return (
         <section id='usSection'>
             <div className="my-grid-header"><h2>about us</h2></div>

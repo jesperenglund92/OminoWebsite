@@ -1,10 +1,10 @@
+/* eslint-disable react/react-in-jsx-scope */
 import { Box, Grid, AppBar, Toolbar, IconButton, SvgIcon, Typography, Link } from '@mui/material';
 import Splash from "./features/Components/Splash";
 import OminoIcon from "./assets/OminoIcon";
 import { useNavigate } from 'react-router';
 
 const WWF = () => {
-
   return (
     <Box sx={{ color: 'white' }}>
       <AppBar color="transparent">

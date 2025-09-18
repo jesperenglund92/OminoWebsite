@@ -25,7 +25,7 @@ const Splash = () => {
                             </Tooltip>
                         }
                         >
-                            <a href={icon.link} className={`fa-brands ${icon.name}`} target="_blank"></a>
+                            <a href={icon.link} className={`fa-brands ${icon.name}`} target="_blank" rel="noreferrer"></a>
                         </OverlayTrigger>
                     ))}
                 </div>

@@ -29,7 +29,7 @@ const Download = () => {
     window.location.href = 'https://apps.apple.com/se/app/polipod/id6479807292';
     return null;
   }
-  window.location.href = 'https://play.google.com/store/apps/details?id=com.OminoGames.Polipod&hl=en';
+  window.location.href = 'https://play.google.com/store/apps/details?id=com.OminoGames.Polipod';
   return null;
 }
 
