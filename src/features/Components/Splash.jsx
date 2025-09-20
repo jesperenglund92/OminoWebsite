@@ -1,9 +1,10 @@
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
 import { ICONS } from "../../utils/utils";
+import DownloadPolipod from './DownloadPolipod';
 
 
-const Splash = () => {
+const Splash = ({includeDownload = false}) => {
     const icons = [{ name: 'fa-facebook', link: 'https://www.facebook.com/profile.php?id=100090126797341' },
     { name: 'fa-instagram', link: 'https://www.instagram.com/ominogames/' },
     { name: 'fa-tiktok', link: 'https://www.tiktok.com/@ominogames' },
@@ -13,6 +14,7 @@ const Splash = () => {
 
     return (
         <div className="splash">
+            { includeDownload && <DownloadPolipod /> }
             <div className="icons-container">
                 <div className="autogrid">
                     {icons.map((icon, i) => (

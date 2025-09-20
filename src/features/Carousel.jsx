@@ -4,7 +4,7 @@ import Image from 'react-bootstrap/Image'
 function CarouselComponent({carouselItems, variant, fade}) {
 
   return (
-    <Carousel className={variant} interval={30000} fade={fade}>
+    <Carousel className={variant} interval={30000} fade={fade} controls={false}>
       {carouselItems.map((item, i) => (
         <Carousel.Item key={item.name + i}>
         {item?.img ?

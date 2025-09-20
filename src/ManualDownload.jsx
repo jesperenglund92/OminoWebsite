@@ -22,7 +22,9 @@ const ManualDownload = () => {
         </Toolbar>
       </AppBar>
       <Box sx={{ height: "100%", display: "flex", flexDirection: "column", gap: "100px", mt: '65px',  width: '100%' }} id='my-body'>
-        <DownloadPolipod />
+        <Box sx={{ textAlign: "center", justifyContent: 'center', alignItems:'center', display: 'flex', flexDirection: 'column', width: '100%' }}>
+          <DownloadPolipod />
+        </Box>
         <Box sx={{ width: "100%", display: "flex", flexDirection: "column", textAlign: 'center', alignItems: 'center', gap: "60px" }}>
           <Typography sx={{ width: "70%", mb: '25px', mt: '50px', color: '#F9CC3D' }} variant="body2">
             And feel free to join any of Omino Games' socials!

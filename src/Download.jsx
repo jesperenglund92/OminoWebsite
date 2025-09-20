@@ -1,6 +1,6 @@
 import  { redirect } from 'react-router-dom';
 
-const getOS = () => {
+export const getOS = () => {
   const userAgent = window.navigator.userAgent,
       platform = window.navigator?.userAgentData?.platform || window.navigator.platform,
       macosPlatforms = ['macOS', 'Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],
