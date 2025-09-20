@@ -1,18 +1,18 @@
 import CarouselComponent from "./Carousel";
 import Splash from "./Components/Splash";
-import News from "./Components/News";
+import Download from "./Components/DownloadPolipod";
 
 const Home = () => {
     const carouselItems = [
+        { name: 'download', img: 'images/OminoGamesLogo.png', imgAlt: 'second image', imgStyle: 'opacity-25', caption: <Download /> },
         { name: 'splash', img: 'images/OminoGamesLogo.png', imgAlt: 'First image', imgStyle: 'opacity-25', caption: <Splash /> },
-        { name: 'news', img: 'images/4fly.png', imgAlt: 'second image', caption: <News /> },
       ];
-      
+
     return (
         <section id='homeSection'>
-            <CarouselComponent carouselItems={carouselItems} variant={'light'} fade={true}/>                  
+            <CarouselComponent carouselItems={carouselItems} variant={'light'} fade={true}/>
         </section>
     );
 }
 
-export default Home;  
+export default Home;
